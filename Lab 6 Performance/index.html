@@ -1,0 +1,14 @@
+<?php
+
+$con=mysqli_connect("localhost","root","","tour");
+$query="select * from tour";
+
+$rs=mysqli_query($con,$query);
+
+foreach($rs as $row){
+	
+	echo "<h4 > Tour ID:".$row['id']." | Tour Country ID:".$row['country_id']."</h4><hr>";
+	
+}
+
+?>
