@@ -6,7 +6,7 @@ session_start();
 
 $_POST['User_ID']
 
-if ($_COOKIE [$un] == $pw ){
+if ($_COOKIE[$un] == $pw ){
 	$_SESSION ['un'] = $un;
 	header("location:login.php");
 }
