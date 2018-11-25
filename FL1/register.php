@@ -109,7 +109,7 @@ if(isset($_POST['submit'])) {
   } else {
     $aiubid = test_input($_POST["aiubid"]); */
     // check if userID only contains letters and whitespace
-    if (!preg_match("/0-90-9-0-90-90-90-90-9-0-9/",$aiubid)) {
+    if (!preg_match("/^[0-9]{2}-[0-9]{5}-[1-3]/",$aiubid)) {
       $aiubidErr = "Invalid ID";
 	  echo "Invalid AIUB ID";
 		echo "<br/>";
