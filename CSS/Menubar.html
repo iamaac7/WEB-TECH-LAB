@@ -1,0 +1,344 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<style>
+			* {box-sizing: border-box;}
+
+				body {
+				  margin: 0;
+				  font-family: Arial, Helvetica, sans-serif;
+				  
+				}
+
+				.topnav {
+				  overflow: hidden;
+				  background-color: #2a2b21;
+				}
+
+				.topnav a {
+				  float: left;
+				  display: block;
+				  color: black;
+				  text-align: center;
+				  padding: 14px 16px;
+				  text-decoration: none;
+				  font-size: 17px;
+				}
+
+				.topnav a:hover {
+				  background-color: #ddd;
+				  color: black;
+				}
+
+				.topnav a.active {
+				  background-color: #2196F3;
+				  color: white;
+				}
+
+				.topnav .search-container {
+				  float: right;
+				}
+
+				.topnav input[type=text] {
+				  padding: 6px;
+				  margin-top: 8px;
+				  font-size: 17px;
+				  border: none;
+				}
+
+				.topnav .search-container button {
+				  float: right;
+				  padding: 6px 10px;
+				  margin-top: 8px;
+				  margin-right: 16px;
+				  background: #ddd;
+				  font-size: 17px;
+				  border: none;
+				  cursor: pointer;
+				}
+
+				.topnav .search-container button:hover {
+				  background: #ccc;
+				}
+
+				@media screen and (max-width: 600px) {
+				  .topnav .search-container {
+					float: none;
+				  }
+				  .topnav a, .topnav input[type=text], .topnav .search-container button {
+					float: none;
+					display: block;
+					text-align: left;
+					width: 100%;
+					margin: 0;
+					padding: 14px;
+				  }
+				  .topnav input[type=text] {
+					border: 1px solid #ccc;  
+				  }
+				}
+
+
+				.hero-image {
+				  background-image: url("banner.jpg");
+				  background-color: #cccccc;
+				  height: 500px;
+				  background-position: center;
+				  background-repeat: no-repeat;
+				  background-size: cover;
+				  position: relative;
+				}
+
+				.hero-text {
+				  text-align: left;
+				  position: absolute;
+				  top: 50%;
+				  left: 20%;
+				  transform: translate(-50%, -50%);
+				  color: white;
+				}
+				.contain{
+					margin-left:100px;
+					margin-right:100px;
+					
+				}
+				.subcontainer{
+					width:285px;
+					height:177px;
+					background-color:orange;
+					 padding-top:20px;
+					 padding-left:23px;
+					 padding-right:20px;
+					 float:left;
+					 
+					margin-left: 77px;
+				}
+				.div1{
+					float:left;
+					margin-left: 20px;
+					 background-image: url("pic06.jpg");
+					background-size:cover;
+					height:373px;
+					width:343px;
+					padding-bottom:20px;
+				}
+				.subdiv{
+					background-color:black;
+					color:white;
+					margin-bottom:50px;
+					text-align: left;
+                    top: 90%;
+                    left: 20%;
+                    transform: translate(0%,1872%);
+					/*
+					text-align: left;
+                position: absolute;
+                top: 80%;
+                left: 20%;
+                transform: translate(-50%,-50%);
+                color: wheat;
+                margin: 20px;*/
+				}
+				.div2{
+				    width:322px;
+					height:177px;
+					background-color:orange;
+					 padding-top:20px;
+					 padding-left:20px;
+					 padding-right:20px;
+					 float:left;
+                    margin-left: 20px;
+				}
+				.div3{
+				    width:325px;
+					height:177px;
+					background-color:orange;
+					 padding-top: 24px;
+					padding-left: 19px;
+					padding-right: 20px;
+					float: right;
+					margin-right: 81px;
+					margin-top: 13px;
+				}
+				.impact{
+				background-image: url(pic7.jpg);
+                    width: 260px;
+                    height: 177px;
+/*                    background-color: orange;*/
+                    padding-top: 127px;
+                    padding-left: 38px;
+                    padding-right: 20px;
+                    float: left;
+                    margin-top: 57px;
+                }
+				.div4{
+				height: 201px;
+				width: 421px;
+/*				background-color: red;*/
+                background-image: url(pic9.jpg);
+                background-size: cover;
+				margin-top: 413px;
+				margin-left: 72px;
+				}
+				.div5{
+				height:206px;
+				width:567px;
+/*				background-color:black;*/
+                background-image: url(pic8.jpg);
+                background-size: cover;
+                    
+				margin-top: -206px;
+				float: right;
+				padding-right: 279px;
+				margin-right: 74px;
+
+                }
+				.re1
+                {
+                    background-blend-mode: lighten;
+                    width: 219px;
+                    height: 50px;
+                    padding-top: 141px;
+                    margin-left: 57px;
+                }
+                .last{
+                    border: 25px solid 0px;
+                    color: black;
+                }
+			</style>
+		</head>
+	<body>
+
+		<div class="topnav">
+			  <a class="active"  style="color:white;"href="#home">Student</a>
+			  <a style="color:white;" href="#about">Staff</a>
+			  <a style="color:white;" href="#contact">Alumni</a>
+			  <a style="color:white;" href="#contact">Myhub</a>
+			  <div class="search-container">
+				<form action="/action_page.php">
+				  <input type="text" placeholder="Search our site" name="search">
+				  <button type="submit"><i class="fa fa-search"></i></button>
+				</form>
+			  </div>
+		  </div>
+		  
+
+		  
+		  
+		  <span >
+
+			<br>
+		
+		   <span align="center"style="background-color:none; padding-left:190px" >
+		   <div style="height: 10px;width: 21%;float: left">
+		      <img src="logo.gif" alt="Smiley face" width="300px" height="36px">
+
+		   </div>
+			<a style="color:black; text-decoration:none;  font-weight: bold " href="#about">Home</a>
+			<a style="color:black;text-decoration:none;  font-weight: bold; padding-left:50px" href="#contact">Why BU?</a>
+			<a style="color:black;text-decoration:none;  font-weight: bold; padding-left:50px" href="#contact">Study</a>
+			<a style="color:black;text-decoration:none;  font-weight: bold; padding-left:50px" href="#about">Research</a>
+			<a style="color:black;text-decoration:none;  font-weight: bold; padding-left:50px" href="#contact">Collaboration</a>
+			<a style="color:black;text-decoration:none;  font-weight: bold; padding-left:50px" href="#contact">Global BU</a>
+			<a style="color:black; text-decoration:none;  font-weight: bold; padding-left:50px" href="#about">about</a> </span>
+			<br>
+			<br>
+			
+		</span>
+
+		  <div style="background-color:#924570" align="center">
+			<a style="color:white; text-decoration:none;  font-weight: bold" href="#about">Theme |</a>
+			<a style="color:white;text-decoration:none;  font-weight: bold" href="#contact">Centres |</a>
+			<a style="color:white;text-decoration:none;  font-weight: bold" href="#contact">Impact |</a>
+			<a style="color:white;text-decoration:none;  font-weight: bold" href="#about">Environment |</a>
+			<a style="color:white;text-decoration:none;  font-weight: bold" href="#contact">Our Latest Research |</a>
+			<a style="color:white;text-decoration:none;  font-weight: bold" href="#contact">Post Graduates |</a>
+			<a style="color:white; text-decoration:none;  font-weight: bold" href="#about">	Research Chronicle |</a><br>
+			
+			   <a style="color:white;text-decoration:none;  font-weight: bold" href="#contact">British Conferennce of undergraduation research |</a>
+				 <a style="color:white;text-decoration:none;  font-weight: bold" href="#contact">Shocasing Undergraduate Research excellence |</a>
+		</div>
+
+		<div class="hero-image">
+		  <div class="hero-text">
+			<h1 style="font-size:60px">World Leading </h1>
+			<h1 style="font-size:60px">Research</h1>
+		   
+			<button style=" background-color: Transparent"><p style="color:white">Read The Lattest Bournemouth Research chronocal 2018 </P></button>
+		  </div>
+		</div>
+		<div align="center">
+			<form action="/action_page.php"  >
+			  <input type="text" size="100" placeholder="Search our Courses" name="search">
+			  <button type="submit" ><i class="fa fa-search"></i></button>
+			</form>
+			</div>
+			<br>
+			<div class="contain">
+				<div style="background-color:#EDE4DE;">
+					<div>
+				
+					 <a style="color:blue"> home /</a>
+					 <a> Research </a>
+					<!----<a style="color:white;margin-left:20px;" href="#contact">About</a>--->
+					</div>
+					<hr>
+					<p> During our Open Days you can find out more about postgraduate study, hear about funding options and talk to academic staff about our courses.</p>
+			
+				</div>
+				<div class="subcontainer">
+					<p  >Research themes</p>
+					<hr>
+					<p> find out about the varied  research we underteke</p> 
+					<div class="impact">
+					<div class="subdiv1">
+						<p>Research Impact</p>
+					</div>
+				</div>
+				</div>
+				
+				<div class="div1">
+					<div class="subdiv">
+						 <p > Postgraduate research(including phd) </p>
+					</div>
+				</div>
+				<div class="div2">
+						<p  >Research themes</p>
+					<hr>
+					<p> find out about the varied  research we underteke</p> 
+				</div>
+				<div class="div3">
+						<p  >Research themes</p>
+					<hr>
+					<p> find out about the varied  research we underteke</p> 
+				</div>
+				
+				<div class="div4">
+				    <div class="re1">
+				        <h2>Research news</h2>
+				    </div>
+				</div>
+				<div class="div5">
+				
+				</div>
+				<br>
+				<hr>
+				<br>
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+	</body>
+</html>

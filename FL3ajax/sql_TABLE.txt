@@ -1,0 +1,11 @@
+CREATE TABLE `user_info` (
+ `fname` varchar(20) NOT NULL,
+ `lname` varchar(20) NOT NULL,
+ `email` varchar(20) NOT NULL,
+ `phone` int(11) NOT NULL,
+ `pass` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
+
+Table Name : user_info
+DB Name : ajaxv
